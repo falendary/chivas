@@ -390,10 +390,109 @@
 .participant-holder {
   padding: 0;
 }
+.participant-holder::after {
+  clear: both;
+  display: block;
+  content: '';
+}
 .participant-holder .participant {
   float: left;
+  margin-right: 1.375rem;
+  margin-bottom: 1.375rem;
+  width: 8.125rem;
+  position: relative;
+  text-align: center;
+}
+.participant-holder .participant.success::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  display: block;
+  background: url("../img/success.png") no-repeat -0.3rem -0.4rem;
+}
+.participant-holder .participant.success .participant-name {
+  color: #d3544b;
+}
+.participant-holder .participant.success .participant-address {
+  color: #d3544b;
+}
+.participant-holder .participant:nth-child(6) {
+  margin-right: 0;
+}
+.participant-holder .participant .participant-img-holder img {
+  width: 130px;
+  height: 110px;
+}
+.participant-holder .participant .participant-name {
+  color: #f9f0d0;
+  margin-bottom: 0;
+}
+.participant-holder .participant .participant-address {
+  color: #f9f0d0;
+  margin: 0;
+}
+.stage.header {
+  margin: 2rem 0 3rem 0;
+}
+.stage.header .col {
+  float: left;
+}
+.stage.header .col.step {
+  color: #ecd7b6;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "FuturaPTBold";
+}
+.stage.header .col.step span {
+  font-size: 1rem;
+  display: block;
+}
+.stage.header .col .timetable {
+  color: #b28e5c;
+  padding: 0.2rem 0 0 0;
+  font-family: "FuturaPTHeavy";
+  text-transform: uppercase;
+  margin: 0;
+}
+.stage.header .col .timetable span {
+  color: #ecd7b6;
+}
+.stage.header .col .take-a-test {
+  color: #b28e5c;
+  font-size: 2rem;
+  margin: 0;
+  font-family: "FuturaPTHeavy";
+  text-decoration: none;
+}
+.stage.header .col:first-child {
+  width: 2.5rem;
+  margin-right: 2rem;
+}
+.centered {
+  text-align: center;
 }
 
+.stage-article {
+  padding: 0 0 0 4.5rem;
+  color: #f9f0d0;
+  font-family: "FuturaPTBook";
+}
+.stage-article p {
+  color: #f9f0d0;
+}
+.stage-article p.stage-results {
+  color: #b28e5c;
+  font-family: "FuturaPTHeavy";
+}
+.stage-article p.stage-results span {
+  color: #ff685d;
+}
+.stage.second {
+  margin-bottom: 4rem;
+}
 
 .footer-holder {
   background: url("../img/footer.jpg");
@@ -673,6 +772,40 @@ body {
   padding: 0 1.5625rem 0 1.5625rem;
 }
 
+.meeting-article {
+  color: #f9f0d0;
+  font-family: "FuturaPTBook";
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.meeting-article p {
+  color: #f9f0d0;
+}
+.images-gallery-holder {
+  margin-bottom: 3rem;
+}
+.images-gallery-holder::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.images-gallery-holder .img-gallery-holder {
+  float: left;
+  width: 12.625rem;
+  margin-right: 1.375rem;
+  margin-bottom: 1.375rem;
+  background: #fff;
+  height: 10.75rem;
+  overflow: hidden;
+}
+.images-gallery-holder .img-gallery-holder .img-gallery {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+.m-top {
+  margin-top: 3.5rem;
+}
 
 .content-holder {
   border-top: 3px solid #c7a57c;

@@ -1,4 +1,70 @@
 .participant-holder
     padding 0
+    &::after
+        clear both
+        display block
+        content ''
     .participant
         float left
+        margin-right 1.375rem
+        margin-bottom 1.375rem
+        width 8.125rem
+        position relative
+        text-align center
+        &.success
+            &::before
+                position absolute
+                width 100%
+                height 100%
+                content ""
+                top 0
+                left 0
+                display block
+                background url(../img/success.png) no-repeat -.3rem -.4rem
+            .participant-name
+                color #d3544b
+            .participant-address
+                color #d3544b
+        &:nth-child(6)
+            margin-right 0
+        .participant-img-holder
+            img
+                width 130px
+                height 110px
+        .participant-name
+            color #f9f0d0
+            margin-bottom 0
+        .participant-address
+            color #f9f0d0
+            margin 0
+.stage.header
+    margin 2rem 0 3rem 0
+    .col
+        float left
+        &.step
+            color #ecd7b6
+            text-align center
+            font-size 2rem
+            font-family "FuturaPTBold"
+            span
+                font-size 1rem
+                display block
+        .timetable
+            color #b28e5c
+            padding .2rem 0 0 0;
+            font-family "FuturaPTHeavy"
+            text-transform uppercase
+            margin 0
+            span
+                color #ecd7b6
+        .take-a-test
+            color #b28e5c
+            font-size 2rem
+            margin 0
+            font-family "FuturaPTHeavy"
+            text-decoration none
+        &:first-child
+            width 2.5rem
+            margin-right 2rem
+.centered
+    text-align center
