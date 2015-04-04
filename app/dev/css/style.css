@@ -1,0 +1,729 @@
+.banner-holder {
+  border-bottom: 3px solid #c7a57c;
+}
+.banner-holder .container {
+  overflow: hidden;
+  height: 100%;
+}
+.slider {
+  position: relative;
+}
+.slider .slider-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slider .slider-item img {
+  width: 100%;
+}
+@-moz-keyframes cycle {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes cycle {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes cycle {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes cycle {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes cycletwo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes cycletwo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes cycletwo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes cycletwo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.body-inner h2 {
+  color: #b28e5c;
+  font-family: FuturaPTBold;
+}
+.body-inner p {
+  color: #b28e5c;
+  font-family: FuturaPTBook;
+}
+.body-inner .uppercase {
+  text-transform: uppercase;
+}
+.body-inner section::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.body-inner .description-holder .container {
+  padding: 4.125rem;
+}
+.body-inner .description article {
+  width: 45%;
+}
+.body-inner .description {
+  text-align: center;
+}
+.body-inner .description aside {
+  width: 50%;
+  text-align: center;
+}
+.body-inner .instruction article {
+  width: 45%;
+}
+.body-inner .instruction aside {
+  width: 50%;
+  text-align: center;
+}
+.body-inner .instruction aside img {
+  width: 100%;
+}
+.body-inner .instruction aside .row {
+  margin: 1rem auto;
+  width: 22rem;
+}
+.body-inner .tired article {
+  width: 45%;
+}
+.body-inner .tired article ul li {
+  color: #b28e5c;
+  font-family: "FuturaPTBook";
+}
+.body-inner .tired aside {
+  width: 50%;
+}
+.body-inner .tired aside img {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.body-inner .tired aside img:first-child {
+  margin-top: 1.7rem;
+}
+.watch-btn {
+  width: 12rem;
+  height: 2.75rem;
+  border: 1px solid #b28e5c;
+  border-radius: 4px;
+  color: #a58664;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: FuturaPTBook;
+  font-size: 1rem;
+  margin: 1rem auto;
+  padding: 0.6rem 0 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.watch-btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: 0.6875rem;
+  top: 1rem;
+  background: url("../img/icon-cam.png") no-repeat;
+}
+.watch-btn:hover {
+  background: url("../img/btn-hover.png");
+}
+.challengein-holder {
+  height: 18.75rem;
+  box-sizing: border-box;
+  padding: 1.75rem 0 0 0;
+  border-top: 3px solid #c7a57c;
+  border-bottom: 3px solid #c7a57c;
+}
+.challengein-holder .container {
+  height: 100%;
+}
+.challengein-holder .challengein {
+  height: 100%;
+  overflow: hidden;
+}
+.challengein-holder .challengein article {
+  width: 45%;
+  text-align: right;
+}
+.challengein-holder .challengein article p {
+  margin: 2.5rem 0 0.3rem;
+  color: #333132;
+  font-family: FuturaPTBold;
+}
+.challengein-holder .challengein article h2 {
+  line-height: 1.2;
+  margin: 1rem 0 2.375rem 0;
+  font-size: 2.1875rem;
+  font-family: FuturaPTHeavy;
+}
+.challengein-holder .challengein aside {
+  margin-right: 7rem;
+}
+.challengein-holder .challengein .getinvolved-btn {
+  font-family: FuturaPTBook;
+  text-align: center;
+  font-size: 1rem;
+  display: block;
+  width: 11.875rem;
+  height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0 0 1.0625rem;
+  background: #990404;
+  color: #e6e7e9;
+  text-decoration: none;
+  border: 1px solid #cc2323;
+  border-radius: 4px;
+  position: relative;
+}
+.challengein-holder .challengein .getinvolved-btn::before {
+  content: '';
+  width: 1.5rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: 0.825rem;
+  left: 0.7rem;
+  background: url("../img/icon-ok.png") no-repeat;
+}
+.challengein-holder .challengein .getinvolved-btn:hover {
+  border: 1px solid #610202;
+  background: #9f0404;
+}
+.experts-holder .experts {
+  padding: 4.5rem 0 4.375rem 0;
+}
+.experts-holder .experts h2 {
+  margin: 0;
+  text-align: center;
+  font-family: FuturaPTHeavy;
+  font-size: 1.125rem;
+}
+.experts-holder .experts h2 span {
+  display: block;
+  font-family: FuturaPTBold;
+  font-size: 2.1875rem;
+}
+.experts-holder .experts .experts-list {
+  padding: 0 0 0 8rem;
+  overflow: hidden;
+}
+.experts-holder .experts .experts-list .expert {
+  float: left;
+  margin-right: 2.75rem;
+  width: 12.75rem;
+}
+.experts-holder .experts .experts-list .expert:last-child {
+  margin-right: 0;
+}
+.experts-holder .experts .experts-list .expert img {
+  border-radius: 4px;
+}
+.experts-holder .experts .experts-list .expert p {
+  color: #cec5aa;
+  font-family: FuturaPTBook;
+  text-align: center;
+}
+
+.participant-holder {
+  padding: 0;
+}
+.participant-holder .participant {
+  float: left;
+}
+
+
+.footer-holder {
+  background: url("../img/footer.jpg");
+  height: 10.75rem;
+  padding-top: 2.875rem;
+  border-top: 3px solid #c7a57c;
+  box-sizing: border-box;
+}
+.footer-holder .logo-footer {
+  margin-left: 1rem;
+}
+.footer-holder .nav-footer {
+  padding: 1.25rem 0 0 0;
+}
+.footer-holder .nav-footer::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.footer-holder .nav-footer .nav-item {
+  color: #b28e5c;
+  border-right: 2px solid #93734a;
+  float: left;
+  font-family: FuturaPTMedium;
+  text-decoration: none;
+  padding: 0 0.9375rem 0;
+}
+.footer-holder .nav-footer .nav-item:last-child {
+  border-right: 0;
+}
+.footer-holder .nav-footer .nav-item:hover {
+  color: #e6e7e8;
+  text-decoration: underline;
+}
+.footer-holder .copyright {
+  color: #e6e7e8;
+  font-family: FuturaPTBook;
+}
+
+.header-holder {
+  height: 8.25rem;
+  border-bottom: 0.1875rem solid #c7a57c;
+}
+.header-holder .auth {
+  padding: 0;
+  color: #b28e5c;
+}
+.header-holder .auth::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.header-holder .auth p {
+  margin: 0.4875rem 0 0 0;
+  font-family: FuturaPTBook;
+}
+.header-holder .auth span {
+  color: #fff6e8;
+}
+.header-holder .auth .avatar {
+  border: 1px solid #a17949;
+  border-radius: 4px;
+  margin-left: 1.625rem;
+}
+.header-holder .auth .logout {
+  color: #b28e5c;
+  font-family: FuturaPTMedium;
+  text-decoration: underline;
+}
+.header-holder .auth .logout:hover {
+  text-decoration: none;
+}
+.header-holder .container {
+  padding-top: 2.1875rem;
+}
+
+@font-face {
+  font-family: "FuturaPTCondBook";
+  src: url("../fonts/FuturaPTCondBook.otf");
+}
+@font-face {
+  font-family: "FuturaPTMedium";
+  src: url("../fonts/FuturaPTMedium.otf");
+}
+@font-face {
+  font-family: "FuturaPTBold";
+  src: url("../fonts/FuturaPTBold.otf");
+}
+@font-face {
+  font-family: "FuturaPTBook";
+  src: url("../fonts/FuturaPTBook.otf");
+}
+@font-face {
+  font-family: "FuturaPTDemi";
+  src: url("../fonts/FuturaPTDemi.otf");
+}
+@font-face {
+  font-family: "FuturaPTHeavy";
+  src: url("../fonts/FuturaPTHeavy.otf");
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.row::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.body-inner {
+  background: #160000 url("../img/bg.png") no-repeat;
+}
+.wrapper-global {
+  width: 60rem;
+  margin: 0 auto;
+}
+.container {
+  width: 60rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.body-index {
+  padding: 28% 0 0 0;
+  background: #160000 url("../img/background.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+.body-index .chivas-title {
+  display: block;
+  margin: 0 auto;
+}
+.body-index .chivas-h2 {
+  text-align: center;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.btn {
+  display: block;
+  width: 11.5625rem;
+  height: 2.75rem;
+  border-radius: 0.25rem;
+}
+.chivas-h2 {
+  color: #c7a57c;
+  font-family: "FuturaPTMedium";
+  font-size: 2.1875rem;
+}
+.auth {
+  padding: 2.5rem 0 3.875rem 16rem;
+}
+.auth .btn {
+  text-decoration: none;
+  color: #c7a57c;
+  font-family: "FuturaPTCondBook";
+  box-sizing: border-box;
+  line-height: 2;
+  font-size: 1.355rem;
+  text-indent: 3rem;
+  background: url("../img/btn-bg.png") no-repeat;
+}
+.auth .btn:hover {
+  background: url("../img/btn-bg-hover.png") no-repeat;
+}
+.auth .btn.bbid {
+  position: relative;
+  margin: 0 3.5rem 0 0;
+}
+.auth .btn.bbid::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: url("../img/icon-bbid.png") no-repeat;
+  width: 0.6875rem;
+  height: 0.9375rem;
+  top: 1rem;
+  left: 1rem;
+}
+.auth .btn.register {
+  position: relative;
+}
+.auth .btn.register::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: url("../img/icon-register.png") no-repeat;
+  width: 1.6875rem;
+  height: 0.9375rem;
+  top: 1rem;
+  left: 1rem;
+}
+.auth::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-holder {
+  margin: 0;
+}
+.nav-holder .nav-header {
+  margin: 0;
+  text-align: center;
+  line-height: 0;
+  height: 4.9rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0 0 0;
+}
+.nav-holder .nav-header::after {
+  height: 0;
+  visibillity: hidden;
+  overflow: hidden;
+  width: 100%;
+  content: '';
+  display: inline-block;
+}
+.nav-holder .nav-header .nav-item-holder {
+  display: inline-block;
+  padding: 1.05rem 0 1.05rem;
+  background: #160000;
+  position: relative;
+  margin-right: -4px;
+  border: 0.0625rem solid transparent;
+}
+.nav-holder .nav-header .nav-item-holder .nav-item {
+  display: block;
+  font-family: "FuturaPTMedium";
+  line-height: 1.7;
+  text-decoration: none;
+  padding: 0 1.5625rem 0 1.5625rem;
+  height: 1.75rem;
+  border: 0.0625rem solid transparent;
+  border-right: 0.0625rem solid #3d2417;
+  color: #b28e5c;
+  text-transform: uppercase;
+}
+.nav-holder .nav-header .nav-item-holder:last-child .nav-item {
+  border: 0.0625rem solid transparent;
+}
+.nav-holder .nav-header .nav-item-holder:hover {
+  background: #640808;
+  border: 0.0625rem solid #8e1210;
+  top: 0.05rem;
+  padding: 1.25rem 0 1.05rem;
+}
+.nav-holder .nav-header .nav-item-holder:hover .nav-item {
+  color: #ecd7b6;
+  border: 0.0625rem solid transparent;
+  padding: 0 1.5625rem 0 1.5625rem;
+}
+.nav-holder .nav-header .nav-item-holder.active {
+  top: 0.05rem;
+  background: #640808;
+  padding: 1.25rem 0 1.05rem;
+  border: 0.0625rem solid #8e1210;
+}
+.nav-holder .nav-header .nav-item-holder.active .nav-item {
+  color: #ecd7b6;
+  border: 0.0625rem solid transparent;
+  padding: 0 1.5625rem 0 1.5625rem;
+}
+
+
+.content-holder {
+  border-top: 3px solid #c7a57c;
+}
+.fancyhr {
+  width: 28.75rem;
+  margin: 0 auto;
+  border-color: #b28e5c;
+}
+.h2-content {
+  margin: 6.25rem 0 2rem 0;
+  text-align: center;
+  font-size: 2.1875rem;
+  font-family: "FuturaPTBold";
+}
+.article-content {
+  padding: 3.2rem 0 3.2rem 0;
+}
+.article-content p {
+  color: #b28e5c;
+  font-family: "FuturaPTBook";
+}
+.chivas-bottles {
+  margin: 3.75rem 0 6.25rem 0;
+  padding: 0;
+}
+.chivas-bottles::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.chivas-bottles .bottle {
+  float: left;
+  margin-right: 3.5rem;
+  width: 17.25rem;
+}
+.chivas-bottles .bottle:last-child {
+  margin-right: 0;
+}
+.chivas-bottles .bottle .bottle-title {
+  font-family: "FuturaPTBold";
+  text-align: center;
+  font-size: 2.1875rem;
+  padding-bottom: 2.625rem;
+  border-bottom: 1px solid #b28e5c;
+  margin: 0 0 2.625rem 0;
+}
+.chivas-bottles .bottle .bottle-img {
+  height: 19.75rem;
+  margin-left: -1.4rem;
+}
+.chivas-bottles .bottle .bottle-description {
+  font-family: "FuturaPTBook";
+}

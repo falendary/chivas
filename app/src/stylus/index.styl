@@ -1,0 +1,109 @@
+@font-face
+    font-family "FuturaPTCondBook"
+    src url(../fonts/FuturaPTCondBook.otf)
+@font-face
+    font-family "FuturaPTMedium"
+    src url(../fonts/FuturaPTMedium.otf)
+@font-face
+    font-family "FuturaPTBold"
+    src url(../fonts/FuturaPTBold.otf)
+@font-face
+    font-family "FuturaPTBook"
+    src url(../fonts/FuturaPTBook.otf)
+@font-face
+    font-family "FuturaPTDemi"
+    src url(../fonts/FuturaPTDemi.otf)
+@font-face
+    font-family "FuturaPTHeavy"
+    src url(../fonts/FuturaPTHeavy.otf)
+html 
+    font-size 100%
+body
+    margin 0
+    padding 0
+.row::after
+    display block
+    content ''
+    clear both
+.body-inner
+    background #160000 url(../img/bg.png) no-repeat
+.wrapper-global
+    width 60rem
+    margin 0 auto
+.container
+    width 60rem
+    margin 0 auto
+    box-sizing border-box
+    &::after
+        display block
+        content ''
+        clear both
+.body-index
+    padding 28% 0 0 0
+    background #160000 url(../img/background.jpg) no-repeat 50% 50%
+    background-size cover
+    .chivas-title 
+        display block
+        margin 0 auto
+    .chivas-h2 
+        text-align center
+.pull-left
+    float left
+.pull-right
+    float right
+.left
+    float left
+.btn
+    display block
+    width 11.5625rem
+    height 2.75rem
+    border-radius .25rem
+    // border 1px solid transparent
+.chivas-h2
+    color #c7a57c
+    font-family "FuturaPTMedium"
+    font-size 2.1875rem
+.auth
+    padding 2.5rem 0 3.875rem 16rem
+    .btn
+        text-decoration none
+        color #c7a57c
+        font-family "FuturaPTCondBook"
+        box-sizing border-box
+        line-height 2
+        font-size 1.355rem
+        text-indent 3rem
+        background url(../img/btn-bg.png) no-repeat 
+        &:hover
+            background url(../img/btn-bg-hover.png) no-repeat
+        &.bbid
+            position relative
+            margin 0 3.5rem 0 0
+            &::after
+                position: absolute
+                display block
+                content ''
+                background url(../img/icon-bbid.png) no-repeat
+                width .6875rem
+                height .9375rem
+                top 1rem
+                left 1rem
+        &.register
+            position relative
+            &::after
+                position: absolute
+                display block
+                content ''
+                background url(../img/icon-register.png) no-repeat
+                width 1.6875rem
+                height .9375rem
+                top 1rem
+                left 1rem
+    &::after
+        content ''
+        display block
+        clear both
+.logotype
+    display block
+    margin 0 auto
+    

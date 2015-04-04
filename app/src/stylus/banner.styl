@@ -1,0 +1,51 @@
+.banner-holder
+    // background url(../img/banner-bg.jpg) 3px 0
+    //height 29.5875rem
+    border-bottom 3px solid #c7a57c
+    .container
+        overflow hidden
+        height 100%
+.slider
+    position relative
+    .slider-item
+        position absolute
+        width 100%
+        height 100%
+        img
+            width  100%
+    .slider-item.first
+        //  -webkit-animation cycle 25s linear infinite
+        //  -moz- cycle 25s linear infinite
+    .slider-item.second
+        //  -webkit-animation cycletwo 25s linear infinite
+        //  -moz- cycletwo 25s linear infinite
+@keyframes cycle
+    0% 
+        opacity 1
+    25%
+        opacity 1
+    45%
+        opacity 1
+    50%
+        opacity 0
+    75%
+        opacity 0
+    95%
+        opacity 0
+    100%
+        opacity 1
+@keyframes cycletwo
+    0%
+        opacity 0
+    25%
+        opacity 0
+    45%
+        opacity 0
+    50%
+        opacity 1
+    75% 
+        opacity 1
+    95%
+        opacity 1
+    100%
+        opacity 0   
